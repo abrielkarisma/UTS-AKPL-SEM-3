@@ -2,7 +2,7 @@
     <div class="row text-center">
 
         <?php foreach ($tanah as $tnh) : ?>
-            <div class="card" style="width: 18rem;">
+            <div class="card ml-5" style="width: 18rem;">
                 <img src="<?php echo base_url().'/upload/' .$tnh->gambar ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $tnh->keterangan ?></h5>
